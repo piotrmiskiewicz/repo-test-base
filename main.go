@@ -1,5 +1,9 @@
 package main
-import "fmt"
+
+import (
+  "github.com/piotrmiskiewicz/repo-test-base/pkg"
+)
+
 func main() {
-    fmt.Println("hello world")
+    pkg.Print("hello world")
 }
